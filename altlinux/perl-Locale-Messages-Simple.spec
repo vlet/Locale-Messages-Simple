@@ -9,7 +9,7 @@ Url: https://github.com/vlet/Locale-Messages-Simple
 
 BuildArch: noarch
 Source: %name-%version.tar
-BuildRequires: perl-devel perl-Module-Install perl-Text-Xslate perl-libintl
+BuildRequires: perl-devel perl-Module-Install perl-Text-Xslate perl-libintl perl-Mouse
 
 %description
 %summary
