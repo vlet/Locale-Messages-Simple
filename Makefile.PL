@@ -3,7 +3,7 @@ use inc::Module::Install;
 name 'Locale-Messages-Simple';
 all_from 'lib/Locale/Messages/Simple.pm';
 
-requires 'Locale::Message';
+requires 'Locale::Messages';
 requires 'Encode';
 
 test_requires 'Test::More';
