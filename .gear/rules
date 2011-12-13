@@ -1,0 +1,2 @@
+tar: @version@:.
+spec: altlinux/perl-Locale-Messages-Simple.spec
