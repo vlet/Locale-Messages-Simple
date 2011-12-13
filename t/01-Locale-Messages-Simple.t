@@ -5,9 +5,9 @@ use Test::More;
 use Text::Xslate;
 use FindBin qw($Bin);
 use utf8;
-use POSIX qw(setlocale LC_MESSAGES);
+use POSIX qw(setlocale LC_ALL);
 
-setlocale LC_MESSAGES, "ru_RU.UTF-8";
+setlocale LC_ALL, "ru_RU.UTF-8";
 
 subtest 'new' => sub {
     my $xs;
